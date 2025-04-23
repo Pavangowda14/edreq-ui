@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -56,30 +57,30 @@ const ContactUs = () => {
                 Follow Us
               </h2>
               <div className="flex space-x-6">
-                <a
+                <Link
                   href="#"
                   className="text-blue-600 text-3xl hover:text-blue-800"
                 >
                   <FaFacebook />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-blue-600 text-3xl hover:text-blue-800"
                 >
                   <FaTwitter />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-blue-600 text-3xl hover:text-blue-800"
                 >
                   <FaLinkedin />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-blue-600 text-3xl hover:text-blue-800"
                 >
                   <FaInstagram />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

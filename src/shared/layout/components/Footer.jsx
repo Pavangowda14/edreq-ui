@@ -57,30 +57,30 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex mt-4 gap-9 flex-wrap">
- <a
+ <Link
                   href="#"
                   className="text-blue-600 text-4xl hover:text-blue-800"
                 >
                   <FaFacebook />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-blue-600 text-4xl hover:text-blue-800"
                 >
                   <FaTwitter />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-blue-600 text-4xl hover:text-blue-800"
                 >
                   <FaLinkedin />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="text-blue-600 text-4xl hover:text-blue-800"
                 >
                   <FaInstagram />
-                </a>
+                </Link>
 
         </div>
       </div>
