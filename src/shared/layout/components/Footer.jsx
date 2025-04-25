@@ -89,18 +89,18 @@ const Footer = () => {
           © 2023 Chakrapriya Edu-Ventures Pvt Ltd. All rights reserved.
         </p>
         <div className="mt-2 lg:m-0 space-x-4 lg:space-x-7">
-          <a
+          <Link
             href="#"
             className="text-n-1/500 text-sm md:text-lg transition-colors duration-300 hover:cursor-pointer hover:text-blue-500"
           >
             Privacy Policy
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="text-n-1/500 text-sm md:text-lg transition-colors duration-300 hover:cursor-pointer hover:text-blue-500"
           >
             Terms and Condition
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
